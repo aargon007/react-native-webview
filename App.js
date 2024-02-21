@@ -9,7 +9,7 @@ export default function App() {
 			<WebView
 				style={styles.webview}
 				bounces={false}
-				source={{ uri: "https://wnw.app/" }}
+				source={{ uri: "https://muhaiminul101.vercel.app" }}
 			/>
 		</SafeAreaView>
 	);
@@ -18,9 +18,10 @@ export default function App() {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
+		backgroundColor: "rgb(0, 0, 0)",
 	},
 	webview: {
 		flex: 1,
-		marginTop: 30,
+		// marginTop: 20,
 	},
 });
